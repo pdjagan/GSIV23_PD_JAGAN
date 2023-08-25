@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-grow: inherit;
+  height: 200px;
+  width: 140px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 5px 5px 0 grey;
+}
+
+.main img {
+  background-position: center;
+  min-width: 140px;
+  width: auto;
+}
+
+.poster {
+  border-radius: 10px 10px 0 0;
+  height: 150px;
+  width: 140px;
+  object-fit: cover;
+}
+
+.title,
+.description {
+  float: left;
+  font-size: 10px;
+  font-weight: 700;
+  color: rgb(94, 94, 94);
+  margin: 0 10px;
+}
+
+/* Movie Rating */
+.rating {
+  float: right;
+  font-size: 10px;
+  font-weight: 500;
+  color: rgb(177, 177, 177);
+  margin: 0 10px;
+}
